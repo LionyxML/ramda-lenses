@@ -1,0 +1,22 @@
+{
+  "name": "ramda_lenses",
+  "version": "1.0.0",
+  "description": "A simple repo showing up how to use Ramda Lenses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionyxML/ramda-lenses.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionyxML/ramda-lenses/issues"
+  },
+  "homepage": "https://github.com/LionyxML/ramda-lenses#readme",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
