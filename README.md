@@ -1,6 +1,6 @@
 # ramda-lenses
 
-A simple example repo of how to use Lenses in JS with the Ramda library.
+A simple example repo regarding how to use Lenses in JS with the Ramda library.
 
 You should install the dependencies with:
 `npm install`
