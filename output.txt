@@ -1,0 +1,68 @@
+>>>> Example 1
+1
+{
+  id: 2,
+  name: 'foo',
+  company: { id: 12, name: 'bar', address: { street: 'randomstreet' } },
+  comments: [
+    { id: 2, text: 'yes, this could work.', to: [Object] },
+    { id: 3, text: 'not sure.', to: [Object] },
+    { id: 4, text: 'well, maybe', to: [Object] }
+  ]
+}
+
+>>>> Example 2
+randomstreet
+{
+  id: 1,
+  name: 'foo',
+  company: { id: 12, name: 'bar', address: { street: 'Foobarstreet' } },
+  comments: [
+    { id: 2, text: 'yes, this could work.', to: [Object] },
+    { id: 3, text: 'not sure.', to: [Object] },
+    { id: 4, text: 'well, maybe', to: [Object] }
+  ]
+}
+
+>>>> Example 3
+2
+{
+  id: 1,
+  name: 'foo',
+  company: { id: 12, name: 'bar', address: { street: 'randomstreet' } },
+  comments: [
+    { id: 12, text: 'yes, this could work.', to: [Object] },
+    { id: 3, text: 'not sure.', to: [Object] },
+    { id: 4, text: 'well, maybe', to: [Object] }
+  ]
+}
+
+>>>> Example 4
+{
+  id: 1,
+  name: 'foo',
+  company: { id: 12, name: 'bar', address: { street: 'randomstreet' } },
+  comments: [
+    { id: 2, text: 'YES, THIS COULD WORK.', to: [Object] },
+    { id: 3, text: 'not sure.', to: [Object] },
+    { id: 4, text: 'well, maybe', to: [Object] }
+  ]
+}
+
+>>>> Example 5
+randomstreet
+
+>>>> Example 6
+2
+
+>>>> Example7
+{
+  id: 1,
+  name: 'foo',
+  company: { id: 12, name: 'bar', address: { street: 'randomstreet' } },
+  comments: [
+    { id: 2, text: 'YES, THIS COULD WORK.', to: [Object] },
+    { id: 3, text: 'NOT SURE.', to: [Object] },
+    { id: 4, text: 'WELL, MAYBE', to: [Object] }
+  ]
+}
